@@ -1,25 +1,21 @@
-# @layout/service
+# layout-service
 Simply create service api calling actions from JSON config
 
 ## Installation
 ### NPM
 
 ```bash
-npm install @layout/service
+npm install layout-service
 # or
-yarn add @layout/service
+yarn add layout-service
 ```
 
 
 ```js
-import Service from '@layout/service'
+import Service from 'layout-service'
 
 const service = Service.create(
   {
-    response: {
-      code: "number",
-      data: "object"
-    },
     modules: [{
       name: "test",
       baseUrl: "/api/test",

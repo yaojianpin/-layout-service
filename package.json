@@ -1,5 +1,5 @@
 {
-  "name": "@layout/service",
+  "name": "layout-service",
   "version": "1.0.0",
   "description": "http service wrapper based on api config",
   "module": "dist/service.esm.js",
